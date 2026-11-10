@@ -1,0 +1,104 @@
+{
+  "source_sha256": "bd93cc515747ad1f87b8bc863c9e40da758509e6db6506a96d06976e61e36ee0",
+  "seed": 42,
+  "python": "3.10.4",
+  "versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.3",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.6.1",
+    "nbformat": "5.10.4",
+    "nbconvert": "7.16.6",
+    "ipykernel": "6.29.5",
+    "jupyterlab": "4.4.3"
+  },
+  "raw_rows": 23486,
+  "text_rows": 22640,
+  "raw_class_counts": {
+    "1": 19314,
+    "0": 4172
+  },
+  "text_class_counts": {
+    "1": 18539,
+    "0": 4101
+  },
+  "missing_text": 845,
+  "missing_title": 3810,
+  "missing_cells_pct": 1.999914842885123,
+  "incomplete_rows": 3824,
+  "full_duplicates_raw": 21,
+  "removed_text_duplicates": 1,
+  "repeated_text_groups_raw": 6,
+  "conflicting_text_groups_raw": 0,
+  "text_medians_words": {
+    "0": 61.0,
+    "1": 58.0
+  },
+  "text_medians_chars": {
+    "0": 316.0,
+    "1": 298.0
+  },
+  "exact_500_chars": 3061,
+  "max_review_chars": 508,
+  "rating_target_mismatch": 296,
+  "short_reviews_5_words": 52,
+  "class_rare_groups": [
+    {
+      "Class Name": "unknown",
+      "n": 13,
+      "recommend_n": 13,
+      "recommend_pct": 100.0,
+      "wilson_low_pct": 77.18981569447084,
+      "wilson_high_pct": 100.0,
+      "small_group": true
+    },
+    {
+      "Class Name": "Casual bottoms",
+      "n": 1,
+      "recommend_n": 1,
+      "recommend_pct": 100.0,
+      "wilson_low_pct": 20.654329147389294,
+      "wilson_high_pct": 100.0,
+      "small_group": true
+    },
+    {
+      "Class Name": "Chemises",
+      "n": 1,
+      "recommend_n": 1,
+      "recommend_pct": 100.0,
+      "wilson_low_pct": 20.654329147389294,
+      "wilson_high_pct": 100.0,
+      "small_group": true
+    }
+  ],
+  "missing_text_pct_by_target": {
+    "0": 1.7018216682646212,
+    "1": 4.007455731593662
+  },
+  "spearman_target": {
+    "Age": 0.03472530860304842,
+    "Rating": 0.6964963124171146,
+    "Positive Feedback Count": -0.07453110120319136,
+    "review_chars": -0.03081337390864279,
+    "review_words": -0.028841805088139633,
+    "title_chars": -0.039019843327341534
+  },
+  "figures": [
+    "01_missing_values.png",
+    "02_class_balance.png",
+    "03_numeric_distributions.png",
+    "04_item_concentration.png",
+    "05_class_name.png",
+    "05_department_name.png",
+    "05_division_name.png",
+    "06_review_lengths.png",
+    "07_title_and_review_lengths.png",
+    "08_top_1grams.png",
+    "08_top_2grams.png",
+    "09_distinctive_terms.png",
+    "10_pairplot.png",
+    "11_spearman_correlations.png"
+  ]
+}
