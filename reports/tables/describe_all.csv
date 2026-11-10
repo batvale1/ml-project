@@ -1,0 +1,11 @@
+,count,unique,top,freq,mean,std,min,25%,50%,75%,max
+Clothing ID,23486.0,,,,918.1187090181385,203.2989797220474,0.0,861.0,936.0,1078.0,1205.0
+Age,23486.0,,,,43.198543813335604,12.279543615591493,18.0,34.0,41.0,52.0,99.0
+Title,19676,13993,Love it!,136,,,,,,,
+Review Text,22641,22634,Perfect fit and i've gotten so many compliments. i buy all my suits from here now!,3,,,,,,,
+Rating,23486.0,,,,4.196031678446734,1.1100307198243897,1.0,4.0,5.0,5.0,5.0
+Recommended IND,23486.0,,,,0.8223622583666865,0.38221563891455684,0.0,1.0,1.0,1.0,1.0
+Positive Feedback Count,23486.0,,,,2.535936302478072,5.7022015020339385,0.0,0.0,1.0,3.0,122.0
+Division Name,23472,3,General,13850,,,,,,,
+Department Name,23472,6,Tops,10468,,,,,,,
+Class Name,23472,20,Dresses,6319,,,,,,,
